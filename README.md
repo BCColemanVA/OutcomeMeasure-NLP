@@ -76,7 +76,7 @@ visualize_ent(nlp_medsp(note))
 
 
 # Statistical and Machine Learning Models
-Additional architecture configuration files are included under "ML Configurations" for initializing the following models in SpaCy:
+Additional architecture configuration files are included under "ML-Configurations" for initializing the following models in SpaCy:
 - Bag of Words Model
 - Convoluted Neural Network Model
 - Ensemble Model (Linear Bag-of-Words + Tok2Vec)
