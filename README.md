@@ -72,7 +72,7 @@ visualize_ent(nlp_medsp(note))
 ```
 `Output:`
 
---- Will insert a picture of output here ---
+<img src="https://github.com/BCColemanVA/OutcomeMeasure-NLP/blob/6820a688139e785c968557258b347aa229a5a39d/Images/SampleVisual.PNG">
 
 
 # Statistical and Machine Learning Models
