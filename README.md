@@ -54,11 +54,18 @@ postprocessor.add(postprocess_rules)
 ## Basic Usage
 ```python
 sampleNote = """
-This is an example text note for demonstration purposes.
-We are searching for patient reported outcome measures documented in this text, such as the PEG-3 or the Neck Disability Index.
-The pipeline will exclude mentions in certain sections like Goals of Care or Abbreviations.
-That way, if the PEG-3 showed up in these sections they would be ignored until another section.
-If a section heading like Subjective was then present, the model would find and include mentions of the PEG-3 again.
+(This is an example text note for demonstration purposes)
+Subjective:
+The patient presents today with low back pain.
+Objective:
+Physical exam is normal.
+Outcome Measures:
+PEG-3: 4/10 (Subscales: 3, 4, 5)
+ODI: 30%
+Assessment and Plan:
+Initiate a trial of chiropractic care for 3-4 visits over 3-4 weeks to assess for improvement in low back pain.
+Goals of Care:
+Reduce PEG-3 by 1, Improve ODI by 10%
 """
 
 visualize_ent(nlp_medsp(note))
