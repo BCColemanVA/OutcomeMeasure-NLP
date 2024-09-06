@@ -8,7 +8,7 @@ This code uses <a href="https://github.com/medspacy/medspacy/tree/master" target
 
 
 # Rule-Based Model
-Here is an example showing basic initialization and usage. 
+This example shows basic initialization and usage, with source files located under "Rule-Based-Model".
 ## Initialization
 ```python
 # Initialize environment
