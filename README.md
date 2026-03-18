@@ -1,7 +1,11 @@
 # Overview
 This is a repository of code developed and reported in the manuscript "Natural Language Processing Approaches to Identify Patient Reported Outcome Measure Documentation in Veterans Health Administration Chiropractic Clinic Notes".  
 
-Reference: (To be updated upon publication in a peer-reviewed journal.)
+Reference: Coleman B, Corcoran K, Brandt C, Goulet J, Luther S, Lisi A
+Identifying Patient-Reported Outcome Measure Documentation in Veterans Health Administration Chiropractic Clinic Notes: Natural Language Processing Analysis
+JMIR Med Inform 2025;13:e66466
+URL: https://medinform.jmir.org/2025/1/e66466
+DOI: 10.2196/66466
 
 # Requirements
 This code uses <a href="https://github.com/medspacy/medspacy/tree/master" target="_blank">MedSpaCy</a> and <a href="https://spacy.io/" target="_blank">SpaCy</a>. 
